@@ -1,0 +1,38 @@
+﻿@model IEnumerable<KsiazkaZamowienie>
+
+@{
+    ViewData["Title"] = "Zamowienia książek";
+}
+
+@*Write code*@
+
+<div class="row">
+       <div class="col-md-8 offset-md-2">
+
+           <table class="table">
+               <thread>
+                   <tr>
+                       <th>@Html.DisplayNameFor(model => model.ZamowienieID)</th>
+                       <th>@Html.DisplayNameFor(model => model.KsiazkaID)</th>
+                       <th>Akcje</th>
+                   </tr>
+               </thread>
+               <tbody>
+                @foreach (var item in Model)
+                {
+                            <tr>
+                                  <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.ZamowienieID)
+                                    </td>
+                                <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.KsiazkaID)
+                                </td>
+                                <td class="align-middle">
+                                             <a asp-controller="ZamowioneKsiazki" asp-action="Create" class="btn btn-success"><i class="bi bi-plus-circle">Dodaj</i></a>
+                                </td>
+                            </tr>
+                }
+            </tbody>
+           </table>
+       </div>
+</div>

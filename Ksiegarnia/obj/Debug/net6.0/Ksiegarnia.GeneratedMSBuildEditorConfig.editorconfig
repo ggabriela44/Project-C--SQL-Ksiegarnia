@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ksiegarnia
+build_property.RootNamespace = Ksiegarnia
+build_property.ProjectDir = C:\Users\ja\Desktop\C#\Ksiegarnia\Ksiegarnia\Ksiegarnia\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ja\Desktop\C#\Ksiegarnia\Ksiegarnia\Ksiegarnia
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Dostawa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zdGF3YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Dostawa/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zdGF3YVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Dostawa/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zdGF3YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Dostawa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9zdGF3YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Gatunek/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0dW5la1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Gatunek/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0dW5la1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Gatunek/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0dW5la1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Gatunek/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0dW5la1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Klienci/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2xpZW5jaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Klienci/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2xpZW5jaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Klienci/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2xpZW5jaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Klienci/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2xpZW5jaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Ksiazki/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Ksiazki/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Ksiazki/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Ksiazki/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Ksiazki/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3NpYXpraVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Zamowienia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Zamowienia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Zamowienia/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Zamowienia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Zamowienia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/ZamowioneKsiazki/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpb25lS3NpYXpraVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/ZamowioneKsiazki/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpb25lS3NpYXpraVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ja/Desktop/C\#/Ksiegarnia/Ksiegarnia/Ksiegarnia/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2r4rkvu782

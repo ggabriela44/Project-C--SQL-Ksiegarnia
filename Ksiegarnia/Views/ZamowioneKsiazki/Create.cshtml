@@ -1,0 +1,45 @@
+﻿@model KsiazkaZamowienie
+@{
+    ViewData["Title"] = "Dodaj Dostawa";
+}
+<div class="row text">
+    <div class="col-md-8 offset-2">
+        <p>
+            <h1>Dodaj nowe Zamowienie</h1>
+        </p>
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="ZamowienieID" class="control-label"></label>
+                        <input asp-for="ZamowienieID" class="form-control" />
+                        <select asp-for="ZamowienieID" class ="form-control" asp-items="ViewBag.ZamowienieID"></select>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="KsiazkaID" class="control-label"></label>
+                        <input asp-for="KsiazkaID" class="form-control" />
+                        <select asp-for="KsiazkaID" class ="form-control" asp-items="ViewBag.KsiazkaID"></select>
+                    </div>
+                    
+                    <br />
+                    <br />
+
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-outline-success float-right" />
+                        <a class="btn btn-outline-secondary" asp-action="Index">Wróć</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts
+    {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

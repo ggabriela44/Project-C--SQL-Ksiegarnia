@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Dostawa>
+
+@{
+    ViewData["Title"] = "Rodzaje Dostaw";
+}
+
+@*Write code*@
+
+<div class="row">
+       <div class="col-md-8 offset-md-2">
+
+           <table class="table">
+               <thread>
+                   <tr>
+                       <th>@Html.DisplayNameFor(model => model.Id_dostawa)</th>
+                       <th>@Html.DisplayNameFor(model => model.Typ)</th>
+                       <th>@Html.DisplayNameFor(model => model.Oplata)</th>
+                       <th>Akcje</th>
+                   </tr>
+               </thread>
+               <tbody>
+                @foreach (var item in Model)
+                {
+                            <tr>
+                                  <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Id_dostawa)
+                                    </td>
+                                <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Typ)
+                                </td>
+                                <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Oplata)
+                                </td>
+                                <td class="align-middle">
+                                         <a asp-controller="Dostawa" asp-action="Create" class="btn btn-success"><i class="bi bi-plus-circle">Dodaj</i></a>
+                                   <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id_dostawa"><i class="bi bi-pencil-square"></i> Edycja </a>
+                                   <a class="btn btn-danger text-white" asp-action="Delete" asp-route-id="@item.Id_dostawa"><i class="bi bi-trash"></i>Usuń</a>
+                                </td>
+                            </tr>
+                }
+            </tbody>
+           </table>
+       </div>
+</div>

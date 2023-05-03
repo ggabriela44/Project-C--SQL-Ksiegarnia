@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Zamowienie>
+
+@{
+    ViewData["Title"] = "Lista Zamówień";
+}
+
+@*Write code*@
+
+<div class="row">
+       <div class="col-md-10 offset-md-2">
+
+           <table class="table">
+               <thread>
+                   <tr>
+                     <th>@Html.DisplayNameFor(model => model.Id_zamowienia)</th>
+                       <th>@Html.DisplayNameFor(model => model.KlientID)</th>
+                       <th>@Html.DisplayNameFor(model => model.DostawaID)</th>
+                       <th>@Html.DisplayNameFor(model => model.Cena_ksiazek)</th>
+                       <th>@Html.DisplayNameFor(model => model.Typ_zaplaty)</th>
+                     <!--     <th>@Html.DisplayNameFor(model => model.Ulica)</th>-->
+                      <!--    <th>@Html.DisplayNameFor(model => model.Nr_domu)</th>-->
+                       <!--   <th>@Html.DisplayNameFor(model => model.Miejscowosc)</th>-->
+                       <!--   <th>@Html.DisplayNameFor(model => model.Kod_pocztowy)</th>-->
+                       <th>Akcje</th>
+                   </tr>
+               </thread>
+               <tbody>
+                @foreach (var item in Model)
+                {
+                            <tr>
+                                  <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Id_zamowienia)
+                                    </td>
+                                <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.KlientID)
+                                </td>
+                                <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.DostawaID)
+                                </td>
+                                <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Cena_ksiazek)
+                                 </td>
+                                 <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Typ_zaplaty)
+                                  </td>
+                                <td class="align-middle">
+                                         <a asp-controller="Zamowienia" asp-action="Create" class="btn btn-success"><i class="bi bi-plus-circle">Dodaj</i></a>
+                                    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id_zamowienia"><i class="bi bi-pencil-square"></i> Edycja </a>
+                                       <a class="btn btn-outline-primary float-right" aps-controller="Zamowienia" asp-action="Details" asp-route-id="@item.Id_zamowienia"><i class="bi bi-eye-fill"></i> Zobacz więcej..</a>
+                                    <a class="btn btn-danger text-white" asp-action="Delete" asp-route-id="@item.Id_zamowienia"><i class="bi bi-trash"></i>Usuń</a>
+                                </td>
+                            </tr>
+                }
+            </tbody>
+           </table>
+       </div>
+</div>
